@@ -38,10 +38,10 @@ Edit `config.js` to put up your details
 
 ```javascript
 module.exports = {
-  siteTitle: 'Gatsby Starter casual', // <title>
+  siteTitle: 'Freizeitanlage Kaspelwerder', // <title>
   ...
-  heading: 'Gatsby Starter Casual',
-  subHeading: 'A Free Bootstrap 4 based Gatsby Starter',
+  heading: 'Freizeitanlage Kaspelwerder',
+  subHeading: 'Campingstellplätze, Bootverleih, und Partyterrasse',
 };
 
 ```
