@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: 'Freizeitanlage Kaspelwerder', // <title>
-  manifestName: 'Casual',
+  manifestName: 'Freizeitanlage Kaspelwerder',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
