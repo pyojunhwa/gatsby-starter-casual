@@ -46,7 +46,7 @@ export default class Header extends Component {
                 }`}
               >
                 <Link className="nav-link text-uppercase text-expanded" to="/">
-                  Home
+                  Startzeite
                 </Link>
               </li>
               <li
@@ -58,7 +58,7 @@ export default class Header extends Component {
                   className="nav-link text-uppercase text-expanded"
                   to="/about"
                 >
-                  About
+                  Angebote
                 </Link>
               </li>
               <li
@@ -70,7 +70,7 @@ export default class Header extends Component {
                   className="nav-link text-uppercase text-expanded"
                   to="/products"
                 >
-                  Products
+                  Stellplätze
                 </Link>
               </li>
               <li
@@ -82,7 +82,7 @@ export default class Header extends Component {
                   className="nav-link text-uppercase text-expanded"
                   to="/store"
                 >
-                  Store
+                  Impressum & Datenschutz
                 </Link>
               </li>
             </ul>
