@@ -15,18 +15,15 @@ const IndexPage = () => (
           />
           <div className="intro-text left-0 text-center bg-faded p-5 rounded">
             <h2 className="section-heading mb-4">
-              <span className="section-heading-upper">Fresh Coffee</span>
-              <span className="section-heading-lower">Worth Drinking</span>
+              <span className="section-heading-upper">Platz und Ruhe</span>
+              <span className="section-heading-lower">Wie bieten ihnen</span>
             </h2>
             <p className="mb-3">
-              Every cup of our quality artisan coffee starts with locally
-              sourced, hand picked ingredients. Once you try it, our coffee will
-              be a blissful addition to your everyday morning routine - we
-              guarantee it!
+              ... eine Freizeitanlage wenige Meter vom Ostorfer See und nur 3km vom Zentrum entfernt. Sie ist ideal geeignet für eine Auszeit. Buchen sie einen von 20 Stellplätzen für ihren Caravan oder nutzen sie den Outdoorplatz für bis zu 150 Personen für ihre nächste Familien- oder Firmenfeier. Es gibt einen großen Grillplatz mit überdachter Terrasse und Seeblick. Hier gehts zu den Angeboten:
             </p>
             <div className="intro-button mx-auto">
               <a className="btn btn-primary btn-xl" href="/#">
-                Visit Us Today!
+                Klingt gut!
               </a>
             </div>
           </div>
@@ -40,15 +37,11 @@ const IndexPage = () => (
           <div className="col-xl-9 mx-auto">
             <div className="cta-inner text-center rounded">
               <h2 className="section-heading mb-4">
-                <span className="section-heading-upper">Our Promise</span>
-                <span className="section-heading-lower">To You</span>
+                <span className="section-heading-upper">Baden, Liegen und</span>
+                <span className="section-heading-lower">Tretboot fahren </span>
               </h2>
               <p className="mb-0">
-                When you walk into our shop to start your day, we are dedicated
-                to providing you with friendly service, a welcoming atmosphere,
-                and above all else, excellent products made with the highest
-                quality ingredients. If you are not satisfied, please let us
-                know and we will do whatever we can to make things right!
+                Um das kühle Nass zu genießen können sie nicht nur Baden. Wir bieten auch Tretboote und Ruderboote zu verleih. Außerdem können sie es sich auf einer der vielen gepflegten Liegeflächen gutgehen lassen. Bitte verstehen sie, dass Hunde auf den Liegeflächen nicht erlaubt sind.
               </p>
             </div>
           </div>

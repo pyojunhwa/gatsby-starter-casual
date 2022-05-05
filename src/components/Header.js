@@ -46,7 +46,7 @@ export default class Header extends Component {
                 }`}
               >
                 <Link className="nav-link text-uppercase text-expanded" to="/">
-                  Startzeite
+                  Startseite
                 </Link>
               </li>
               <li

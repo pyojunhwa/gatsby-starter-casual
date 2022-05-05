@@ -11,39 +11,12 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-xl-9 mx-auto">
             <div className="cta-inner text-center rounded">
-              <h2 className="section-heading mb-5">
-                <span className="section-heading-lower">Öffnungszeiten</span>
+              <h2 className="section-heading mb-4">
+                  <span className="section-heading-upper">
+                    Impressum
+                  </span>
               </h2>
-              <ul className="list-unstyled list-hours mb-5 text-left mx-auto">
-                <li className="list-unstyled-item list-hours-item d-flex">
-                  Sunday
-                  <span className="ml-auto">Closed</span>
-                </li>
-                <li className="list-unstyled-item list-hours-item d-flex">
-                  Monday
-                  <span className="ml-auto">7:00 AM to 8:00 PM</span>
-                </li>
-                <li className="list-unstyled-item list-hours-item d-flex">
-                  Tuesday
-                  <span className="ml-auto">7:00 AM to 8:00 PM</span>
-                </li>
-                <li className="list-unstyled-item list-hours-item d-flex">
-                  Wednesday
-                  <span className="ml-auto">7:00 AM to 8:00 PM</span>
-                </li>
-                <li className="list-unstyled-item list-hours-item d-flex">
-                  Thursday
-                  <span className="ml-auto">7:00 AM to 8:00 PM</span>
-                </li>
-                <li className="list-unstyled-item list-hours-item d-flex">
-                  Friday
-                  <span className="ml-auto">7:00 AM to 8:00 PM</span>
-                </li>
-                <li className="list-unstyled-item list-hours-item d-flex">
-                  Saturday
-                  <span className="ml-auto">9:00 AM to 5:00 PM</span>
-                </li>
-              </ul>
+
               <p className="address mb-5">
                 <em>
                   <strong>Marion  Dahlmann</strong>
@@ -76,7 +49,9 @@ const IndexPage = () => (
           <div className="row">
             <div className="col-xl-9 col-lg-10 mx-auto">
               <div className="bg-faded rounded p-5">
-
+                <h2 className="section-heading mb-5">
+                <span className="section-heading-lower">Datenschutz</span>
+                </h2>
                 <h2 className="section-heading mb-4">
                   <span className="section-heading-upper">
                     Haftung für Inhalte
@@ -103,9 +78,11 @@ const IndexPage = () => (
                 <p>
                   Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
                 </p>
+                <h2 className="section-heading mb-4">
                 <span className="section-heading-upper">
                     Datenschutz
                   </span>
+                </h2>
                 <p className="mb-0">
                   Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
                 </p>

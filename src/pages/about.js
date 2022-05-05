@@ -16,25 +16,39 @@ const IndexPage = () => (
           <div className="row">
             <div className="col-xl-9 col-lg-10 mx-auto">
               <div className="bg-faded rounded p-5">
-                <h2 className="section-heading mb-4">
-                  <span className="section-heading-upper">
-                    Strong Coffee, Strong Roots
-                  </span>
-                  <span className="section-heading-lower">About Our Cafe</span>
+                <h2 className="section-heading mb-5">
+                  <span className="section-heading-lower">Öffnungszeiten Tretboot</span>
                 </h2>
-                <p>
-                  Founded in 1987 by the Hernandez brothers, our establishment
-                  has been serving up rich coffee sourced from artisan farmers
-                  in various regions of South and Central America. We are
-                  dedicated to travelling the world, finding the best coffee,
-                  and bringing back to you here in our cafe.
-                </p>
-                <p className="mb-0">
-                  We guarantee that you will fall in <em>lust</em> with our
-                  decadent blends the moment you walk inside until you finish
-                  your last sip. Join us for your daily routine, an outing with
-                  friends, or simply just to enjoy some alone time.
-                </p>
+                <ul className="list-unstyled list-hours mb-5 text-left mx-auto">
+                  <li className="list-unstyled-item list-hours-item d-flex">
+                    Sunday
+                    <span className="ml-auto">Closed</span>
+                  </li>
+                  <li className="list-unstyled-item list-hours-item d-flex">
+                    Monday
+                    <span className="ml-auto">7:00 AM to 8:00 PM</span>
+                  </li>
+                  <li className="list-unstyled-item list-hours-item d-flex">
+                    Tuesday
+                    <span className="ml-auto">7:00 AM to 8:00 PM</span>
+                  </li>
+                  <li className="list-unstyled-item list-hours-item d-flex">
+                    Wednesday
+                    <span className="ml-auto">7:00 AM to 8:00 PM</span>
+                  </li>
+                  <li className="list-unstyled-item list-hours-item d-flex">
+                    Thursday
+                    <span className="ml-auto">7:00 AM to 8:00 PM</span>
+                  </li>
+                  <li className="list-unstyled-item list-hours-item d-flex">
+                    Friday
+                    <span className="ml-auto">7:00 AM to 8:00 PM</span>
+                  </li>
+                  <li className="list-unstyled-item list-hours-item d-flex">
+                    Saturday
+                    <span className="ml-auto">9:00 AM to 5:00 PM</span>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
