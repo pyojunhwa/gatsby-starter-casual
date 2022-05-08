@@ -6,6 +6,14 @@ module.exports = {
     title: config.siteTitle,
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-piwik-pro",
+      options: {
+        containerUrl: "https://pyo.containers.piwik.pro/",
+        siteId: "04c16cb7-9051-4697-9c87-3c38bb456d1e",
+        enabled: process.env.NODE_ENV === "production",
+          },
+          },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
