@@ -23,11 +23,13 @@ const IndexPage = () => (
               </h2>
             </div>
           </div>
+          <a href="https://goo.gl/maps/2UiVKqYf2Af3AGHv6">
           <img
             className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
             src={product1}
             alt=""
           />
+          </a>
           <div className="product-item-description d-flex mr-auto">
             <div className="bg-faded p-5 rounded">
               <p className="mb-0">

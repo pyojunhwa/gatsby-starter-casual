@@ -1,8 +1,10 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-
 import intro from '../assets/images/intro.jpg';
+
+
+
 const IndexPage = () => (
   <Layout activeLink="home">
     <section className="page-section clearfix">
@@ -22,7 +24,7 @@ const IndexPage = () => (
               ... eine Freizeitanlage wenige Meter vom Ostorfer See und nur 3km vom Zentrum entfernt. Sie ist ideal geeignet für eine Auszeit. Buchen sie einen von 20 Stellplätzen für ihren Caravan oder nutzen sie den Outdoorplatz für bis zu 150 Personen für ihre nächste Familien- oder Firmenfeier. Es gibt einen großen Grillplatz mit überdachter Terrasse und Seeblick. Hier gehts zu den Angeboten:
             </p>
             <div className="intro-button mx-auto">
-              <a className="btn btn-primary btn-xl">
+              <a className="btn btn-primary btn-xl" href="https://gatsbystartercasualmaster.gatsbyjs.io/products">
                 Klingt gut!
               </a>
             </div>
