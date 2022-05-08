@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import product1 from '../assets/images/products-01.jpg';
+import product1 from '../assets/images/google_maps Kaspelwerder.webp';
 import product2 from '../assets/images/products-02.jpg';
 import product3 from '../assets/images/products-03.jpg';
 
@@ -14,11 +14,11 @@ const IndexPage = () => (
           <div className="product-item-title d-flex">
             <div className="bg-faded p-5 d-flex ml-auto rounded">
               <h2 className="section-heading mb-0">
-                <span className="section-heading-upper">
-                  Blended to Perfection
-                </span>
                 <span className="section-heading-lower">
-                  Coffees &amp; Teas
+                  Besuchen sie uns
+                </span>
+                <span className="section-heading-upper">
+                  Am Erlenbruch 20, 19061 Schwerin
                 </span>
               </h2>
             </div>
@@ -31,12 +31,7 @@ const IndexPage = () => (
           <div className="product-item-description d-flex mr-auto">
             <div className="bg-faded p-5 rounded">
               <p className="mb-0">
-                We take pride in our work, and it shows. Every time you order a
-                beverage from us, we guarantee that it will be an experience
-                worth having. Whether it's our world famous Venezuelan
-                Cappuccino, a refreshing iced herbal tea, or something as simple
-                as a cup of speciality sourced black coffee, you will be coming
-                back for more.
+                Das Bild ist ein Link zu Google Maps
               </p>
             </div>
           </div>
