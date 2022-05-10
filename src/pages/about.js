@@ -57,20 +57,6 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-      <div className="about-heading-content">
-        <div className="row">
-          <div className="col-xl-9 col-lg-10 mx-auto">
-            <div className="bg-faded rounded p-5">
-
-
-
-
-
-
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
 
   </Layout>
