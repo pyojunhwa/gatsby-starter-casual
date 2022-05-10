@@ -9,5 +9,5 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-casual/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Freizeitanlage Kaspelwerder',
-  subHeading: 'Campingstellplätze, Bootverleih und Partyterrasse ',
+  subHeading: 'Campingstellplätze, Bootsverleih und Partyterrasse ',
 };

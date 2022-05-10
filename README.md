@@ -39,9 +39,8 @@ Edit `config.js` to put up your details
 ```javascript
 module.exports = {
   siteTitle: 'Freizeitanlage Kaspelwerder', // <title>
-  ...
   heading: 'Freizeitanlage Kaspelwerder',
-  subHeading: 'Campingstellplätze, Bootverleih, und Partyterrasse',
+  subHeading: 'Campingstellplätze, Bootsverleih, und Partyterrasse',
 };
 
 ```
@@ -84,6 +83,4 @@ Please create issue or open PR request for contribution.
 
 ### License
 
-[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](LICENSE)
-
-refer `LICENSE` file in this repository.
+https://badges.frapsoft.com/os/mit/mit.svg?v=102
