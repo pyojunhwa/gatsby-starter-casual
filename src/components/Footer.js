@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="footer text-faded text-center py-5">
       <div className="container">
-        <p className="mb-3">Freizeitanlage - Kaspelwerder</p>
+        <p className="m-0" color="$secondary">Freizeitanlage - Kaspelwerder</p>
       </div>
     </footer>
   );
