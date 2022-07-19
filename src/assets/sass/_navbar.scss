@@ -2,7 +2,7 @@
   background-color: fade-out($secondary, 0.1);
   @include heading-font;
   .navbar-brand {
-    color: $primary;
+    color: $secondary;
   }
   .navbar-nav {
     .nav-item {
@@ -13,7 +13,7 @@
       }
       &.active {
         .nav-link {
-          color: $primary;
+          color: $secondary;
         }
       }
     }
