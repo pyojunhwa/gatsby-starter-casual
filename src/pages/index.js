@@ -24,7 +24,7 @@ const IndexPage = () => (
               ... eine Freizeitanlage wenige Meter vom Ostorfer See und nur 3km vom Zentrum entfernt. Sie ist ideal geeignet für eine Auszeit. Buchen sie einen von 20 Stellplätzen für ihren Caravan oder nutzen sie den Outdoorplatz für bis zu 150 Personen für ihre nächste Familien- oder Firmenfeier. Es gibt einen großen Grillplatz mit überdachter Terrasse und Seeblick. Rufen sie bei interesse einfach mal an!
             </p>
             <div className="intro-button mx-auto">
-              <a className="btn btn-primary btn-xl" href="tel:+49-1738305016">
+              <a className="btn btn-primary btn-xl" href="tel:+491738305016">
                 Tel.: 01738305016
               </a>
             </div>
@@ -47,9 +47,11 @@ const IndexPage = () => (
               </p>
             </div>
             <div className="intro-button mx-auto">
-              <a className="btn btn-primary btn-xl" href="https://gatsbystartercasualmaster.gatsbyjs.io/about">
+              <div className="intro-button mx-auto">
+                <a className="btn btn-primary btn-xl" href="https://gatsbystartercasualmaster.gatsbyjs.io/about">
                 Zu den Angeboten
-              </a>
+                </a>
+              </div>
             </div>
           </div>
         </div>
