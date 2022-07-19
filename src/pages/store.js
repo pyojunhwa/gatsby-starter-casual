@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import about from '../assets/images/about.jpg';
+import about from '../assets/images/about.webp';
 
 const IndexPage = () => (
   <Layout activeLink="store">

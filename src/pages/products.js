@@ -3,8 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 import product1 from '../assets/images/google_maps Kaspelwerder.webp';
-import product2 from '../assets/images/products-02.jpg';
-import product3 from '../assets/images/products-03.jpg';
+import about from "../assets/images/about.webp";
 
 const IndexPage = () => (
   <Layout activeLink="products">
@@ -41,69 +40,31 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="page-section">
+    <section className="page-section about-heading">
       <div className="container">
-        <div className="product-item">
-          <div className="product-item-title d-flex">
-            <div className="bg-faded p-5 d-flex mr-auto rounded">
-              <h2 className="section-heading mb-0">
-                <span className="section-heading-upper">
-                  Delicious Treats, Good Eats
-                </span>
-                <span className="section-heading-lower">
-                  Bakery &amp; Kitchen
-                </span>
-              </h2>
-            </div>
-          </div>
-          <img
-            className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
-            src={product2}
+        <img
+            className="img-fluid rounded about-heading-img mb-3 mb-lg-0"
+            src={about}
             alt=""
-          />
-          <div className="product-item-description d-flex ml-auto">
-            <div className="bg-faded p-5 rounded">
-              <p className="mb-0">
-                Our seasonal menu features delicious snacks, baked goods, and
-                even full meals perfect for breakfast or lunchtime. We source
-                our ingredients from local, oragnic farms whenever possible,
-                alongside premium vendors for specialty goods.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section className="page-section">
-      <div className="container">
-        <div className="product-item">
-          <div className="product-item-title d-flex">
-            <div className="bg-faded p-5 d-flex ml-auto rounded">
-              <h2 className="section-heading mb-0">
-                <span className="section-heading-upper">
-                  From Around the World
-                </span>
-                <span className="section-heading-lower">
-                  Bulk Speciality Blends
-                </span>
-              </h2>
-            </div>
-          </div>
-          <img
-            className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
-            src={product3}
-            alt=""
-          />
-          <div className="product-item-description d-flex mr-auto">
-            <div className="bg-faded p-5 rounded">
-              <p className="mb-0">
-                Travelling the world for the very best quality coffee is
-                something take pride in. When you visit us, you'll always find
-                new blends from around the world, mainly from regions in Central
-                and South America. We sell our blends in smaller to large bulk
-                quantities. Please visit us in person for more details.
-              </p>
+        />
+        <div className="about-heading-content">
+          <div className="row">
+            <div className="col-xl-9 col-lg-10 mx-auto">
+              <div className="bg-faded rounded p-5">
+                <h2 className="section-heading mb-5">
+                  <span className="section-heading-lower">Öffnungszeiten Tretboot</span>
+                </h2>
+                <ul className="list-unstyled list-hours mb-5 text-left mx-auto">
+                  <li className="list-unstyled-item list-hours-item d-flex">
+                    Badeanstalt
+                    <span className="ml-auto"> täglich 8-22 Uhr</span>
+                  </li>
+                  <li className="list-unstyled-item list-hours-item d-flex">
+                    Bootsverleih
+                    <span className="ml-auto">täglich 10 -20 Uhr</span>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>

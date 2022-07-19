@@ -70,7 +70,7 @@ export default class Header extends Component {
                   className="nav-link text-uppercase text-expanded"
                   to="/products"
                 >
-                  Stellplätze
+                  Anfahrt und Öffnungszeiten
                 </Link>
               </li>
               <li
