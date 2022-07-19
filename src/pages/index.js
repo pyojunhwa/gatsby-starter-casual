@@ -46,11 +46,11 @@ const IndexPage = () => (
                 Um das kühle Nass zu genießen unsere Badeanstalt. Weiterhin bieten wir auch Tret- Ruder- und Stand-Up-boote zu verleih. Außerdem können sie es sich auf einer der vielen gepflegten Liegeflächen gutgehen lassen oder das Volleyballfeld buchen. Bitte verstehen sie, dass Hunde auf den Liegeflächen nicht erlaubt sind.
               </p>
             </div>
-          </div>
-          <div className="intro-button mx-auto">
-            <a className="btn btn-primary btn-xl" href="https://gatsbystartercasualmaster.gatsbyjs.io/products">
-              Zu den Angeboten
-            </a>
+            <div className="intro-button mx-auto">
+              <a className="btn btn-primary btn-xl" href="https://gatsbystartercasualmaster.gatsbyjs.io/about">
+                Zu den Angeboten
+              </a>
+            </div>
           </div>
         </div>
       </div>

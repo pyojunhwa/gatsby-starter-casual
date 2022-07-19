@@ -57,11 +57,11 @@ const IndexPage = () => (
                 <ul className="list-unstyled list-hours mb-5 text-left mx-auto">
                   <li className="list-unstyled-item list-hours-item d-flex">
                     Badeanstalt
-                    <span className="ml-auto"> täglich 8-22 Uhr</span>
+                    <span className="ml-auto"> täglich 10-19 Uhr</span>
                   </li>
                   <li className="list-unstyled-item list-hours-item d-flex">
-                    Bootsverleih
-                    <span className="ml-auto">täglich 10 -20 Uhr</span>
+                    Saison für Wohnmobil und Baden
+                    <span className="ml-auto">Anfang Mai bis Ende September</span>
                   </li>
                 </ul>
               </div>
