@@ -8,14 +8,12 @@ export default function Footer() {
           <p className="m-0" style={{color:"#ffffff"}}>Freizeitanlage - Kaspelwerder</p>
           <div className="flex-row mx-auto">
                   <Link
-                      className="nav-link"
                       to="/"
                       style={{textDecoration:"none",color:"#ffffff"}}
                   >
                       Startseite
                   </Link>
                   <Link
-                      className="nav-link"
                       to="/about"
                       style={{textDecoration:"none",color:"#ffffff"}}
                   >
@@ -23,13 +21,11 @@ export default function Footer() {
                   </Link>
                   <Link
                       style={{textDecoration:"none",color:"#ffffff"}}
-                      className="nav-link"
                       to="/products"
                   >
-                      Anfahrt und Öffnungszeiten
+                      Anfahrt & Öffnungszeiten
                   </Link>
                   <Link style={{textDecoration:"none",color:"#ffffff"}}
-                      className="nav-link"
                       to="/store"
                   >
                       Impressum & Datenschutz
