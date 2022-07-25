@@ -11,7 +11,7 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-xl-9 mx-auto">
             <div className="cta-inner rounded">
-                <h1>Impressum</h1>
+                <span className="section-heading-lower">Impressum</span>
 
                 <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
                 <p>Marion Dahlmann<br />

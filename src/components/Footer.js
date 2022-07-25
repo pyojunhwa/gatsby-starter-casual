@@ -14,7 +14,7 @@ export default function Footer() {
                       Startseite
                   </Link>
                   <Link
-                      to="/abgebote"
+                      to="/angebote"
                       style={{textDecoration:"none",color:"#ffffff",paddingRight:"10px"}}
                   >
                       Angebote
