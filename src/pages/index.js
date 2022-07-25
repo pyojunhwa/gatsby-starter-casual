@@ -50,7 +50,7 @@ const IndexPage = () => (
               Buchen sie einen von 20 Stellplätzen für ihren Caravan.
             </p>
             <div className="intro-button mx-auto">
-              <Link className="btn btn-primary btn-xl" to="/#gebueren">
+              <Link className="btn btn-primary btn-xl" to="/angebote/#gebueren">
                 Hier geht es zu den Stellplatzpreisen!
               </Link>
             </div>
