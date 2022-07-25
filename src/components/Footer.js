@@ -9,25 +9,22 @@ export default function Footer() {
           <div className="flex-row mx-auto">
                   <Link
                       to="/"
-                      style={{textDecoration:"none",color:"#ffffff"}}
+                      style={{textDecoration:"none",color:"#ffffff",paddingRight:"10px"}}
                   >
                       Startseite
                   </Link>
-              <div><p style={{color:"#ffffff"}}> | </p></div>
                   <Link
                       to="/about"
-                      style={{textDecoration:"none",color:"#ffffff"}}
+                      style={{textDecoration:"none",color:"#ffffff",paddingRight:"10px"}}
                   >
                       Angebote
                   </Link>
-              <div><p style={{color:"#ffffff"}}> | </p></div>
                   <Link
-                      style={{textDecoration:"none",color:"#ffffff"}}
+                      style={{textDecoration:"none",color:"#ffffff"paddingRight:"10px"}}
                       to="/products"
                   >
                       Anfahrt & Öffnungszeiten
                   </Link>
-              <div><p style={{color:"#ffffff"}}> | </p></div>
                   <Link style={{textDecoration:"none",color:"#ffffff"}}
                       to="/store"
                   >
