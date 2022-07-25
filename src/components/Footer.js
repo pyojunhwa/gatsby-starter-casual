@@ -13,21 +13,21 @@ export default function Footer() {
                   >
                       Startseite
                   </Link>
-              <p> | </p>
+              <div><p style={{color:"#ffffff"}}> | </p></div>
                   <Link
                       to="/about"
                       style={{textDecoration:"none",color:"#ffffff"}}
                   >
                       Angebote
                   </Link>
-              <p> | </p>
+              <div><p style={{color:"#ffffff"}}> | </p></div>
                   <Link
                       style={{textDecoration:"none",color:"#ffffff"}}
                       to="/products"
                   >
                       Anfahrt & Öffnungszeiten
                   </Link>
-              <p> | </p>
+              <div><p style={{color:"#ffffff"}}> | </p></div>
                   <Link style={{textDecoration:"none",color:"#ffffff"}}
                       to="/store"
                   >
