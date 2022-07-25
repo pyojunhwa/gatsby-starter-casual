@@ -3,6 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import intro from '../assets/images/intro.webp';
 import See from "../assets/images/see.webp";
+import {Link} from "gatsby";
 
 
 const IndexPage = () => (
@@ -49,9 +50,9 @@ const IndexPage = () => (
               Buchen sie einen von 20 Stellplätzen für ihren Caravan.
             </p>
             <div className="intro-button mx-auto">
-              <a className="btn btn-primary btn-xl" href="https://gatsbystartercasualmaster.gatsbyjs.io/angebote/#gebueren">
+              <Link className="btn btn-primary btn-xl" to="/#gebueren">
                 Hier geht es zu den Stellplatzpreisen!
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -76,7 +77,6 @@ const IndexPage = () => (
                 <a className="btn btn-primary btn-xl"  href="https://gatsbystartercasualmaster.gatsbyjs.io/angebote">
                   Zu den Angeboten
                 </a>
-
               </div>
             </div>
           </div>
