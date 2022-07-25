@@ -3,39 +3,38 @@ import {Link} from "gatsby";
 
 export default function Footer() {
   return (
-    <footer className="footer py-5">
+    <footer className="footer text-center py-5">
       <div className="container">
-
-          <li className="mx-auto">
-              <p className="m-0" color="fff">Freizeitanlage - Kaspelwerder</p>
-              <Link className="nav-link"
-                        to="/"
-                        color="fff"
+          <ul className=" mx-auto">
+              <p className="m-0" style={{color:"#ffffff"}}>Freizeitanlage - Kaspelwerder</p>
+                  <Link
+                      className="nav-link"
+                      to="/"
+                      style={{textdecoration:"none",color:"#ffffff"}}
                   >
                       Startseite
                   </Link>
                   <Link
                       className="nav-link"
                       to="/about"
-                      color="fff"
+                      style={{textdecoration:"none",color:"#ffffff"}}
                   >
                       Angebote
                   </Link>
                   <Link
+                      style={{textdecoration:"none",color:"#ffffff"}}
                       className="nav-link"
                       to="/products"
-                      color="fff"
                   >
                       Anfahrt und Öffnungszeiten
                   </Link>
-                  <Link style={{ textDecoration: 'none' }}
+                  <Link style={{textdecoration:"none",color:"#ffffff"}}
                       className="nav-link"
                       to="/store"
-                      color="fff"
                   >
                       Impressum & Datenschutz
                   </Link>
-          </li>
+          </ul>
       </div>
     </footer>
   );
