@@ -47,7 +47,19 @@ const IndexPage = () => (
             src={about}
             alt=""
         />
-        <div className="about-heading-content">
+
+        <div className="container">
+          <div className="product-item">
+            <div className="product-item-title d-flex">
+              <div className="bg-faded p-5 d-flex ml-auto rounded">
+                <h2 className="section-heading mb-0">
+                <span className="section-heading-lower">
+                  Besuchen sie uns
+                </span>
+
+
+
+        <div className="container">
           <div className="row">
             <div className="col-xl-9 col-lg-10 mx-auto">
               <div className="bg-faded rounded p-5">
