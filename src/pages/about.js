@@ -80,7 +80,7 @@ const IndexPage = () => (
         alt=""
     />
     </section>
-    <section className="page-section">
+    <section className="page-section bg-faded">
       <img
           className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
           src={gebueren}
