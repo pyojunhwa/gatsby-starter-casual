@@ -7,7 +7,7 @@
   .navbar-nav {
     .nav-item {
       .nav-link {
-        color: fade-out($white, 0.3);
+        color: fade-out($white, 0.1);
 
         font-weight: 800;
       }
@@ -24,7 +24,7 @@
         .nav-link {
           font-size: 0.9rem;
           &:hover {
-            color: fade-out($white, 0.6);
+            color: fade-out($white, 0.1);
           }
         }
         &.active {
