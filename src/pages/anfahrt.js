@@ -10,7 +10,7 @@ const IndexPage = () => (
     <section className="page-section">
       <div className="container">
         <div className="product-item">
-          <div className="product-item-title d-flex">
+          <div className="product-item-title d-flex mr-auto">
             <div className="bg-faded p-5 d-flex ml-auto rounded">
               <h2 className="section-heading mb-0">
                 <span className="section-heading-lower">
