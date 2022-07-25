@@ -11,8 +11,9 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-xl-9 mx-auto">
             <div className="cta-inner rounded">
-                <span className="section-heading-lower">Impressum</span>
-
+                <h2 className="section-heading mb-0">
+                    <span className="section-heading-lower">Impressum</span>
+                </h2>
                 <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
                 <p>Marion Dahlmann<br />
                     Freizeitanlage Kaspelwerder<br />
