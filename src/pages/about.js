@@ -10,7 +10,7 @@ import volleyballfeld from "../assets/images/volleyballfeld.webp";
 import standup from "../assets/images/standup.webp";
 import gebueren from "../assets/images/gebueren.webp";
 const IndexPage = () => (
-  <Layout activeLink="about">
+  <Layout activeLink="angebote">
 
 
     <section className="page-section">

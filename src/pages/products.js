@@ -6,7 +6,7 @@ import product1 from '../assets/images/google_maps Kaspelwerder.webp';
 import about from "../assets/images/about.webp";
 
 const IndexPage = () => (
-  <Layout activeLink="products">
+  <Layout activeLink="anfahrt">
     <section className="page-section">
       <div className="container">
         <div className="product-item">

@@ -42,7 +42,7 @@ export default class Header extends Component {
             <ul className="navbar-nav text-center mx-auto">
               <li
                 className={`nav-item px-lg-4 ${
-                  activeLink === 'home' ? 'active' : ''
+                  activeLink === 'startseite' ? 'active' : ''
                 }`}
               >
                 <Link className="nav-link text-uppercase text-expanded" to="/">
@@ -51,36 +51,36 @@ export default class Header extends Component {
               </li>
               <li
                 className={`nav-item px-lg-4 ${
-                  activeLink === 'about' ? 'active' : ''
+                  activeLink === 'angebote' ? 'active' : ''
                 }`}
               >
                 <Link
                   className="nav-link text-uppercase text-expanded"
-                  to="/about"
+                  to="/angebote"
                 >
                   Angebote
                 </Link>
               </li>
               <li
                 className={`nav-item px-lg-4 ${
-                  activeLink === 'products' ? 'active' : ''
+                  activeLink === 'anfahrt' ? 'active' : ''
                 }`}
               >
                 <Link
                   className="nav-link text-uppercase text-expanded"
-                  to="/products"
+                  to="/anfahrt"
                 >
                   Anfahrt & Öffnungszeiten
                 </Link>
               </li>
               <li
                 className={`nav-item px-lg-4 ${
-                  activeLink === 'store' ? 'active' : ''
+                  activeLink === 'impressum' ? 'active' : ''
                 }`}
               >
                 <Link
                   className="nav-link text-uppercase text-expanded"
-                  to="/store"
+                  to="/impressum"
                 >
                   Impressum & Datenschutz
                 </Link>

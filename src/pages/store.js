@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 import about from '../assets/images/about.webp';
 
 const IndexPage = () => (
-  <Layout activeLink="store">
+  <Layout activeLink="impressum">
     <section className="page-section cta">
       <div className="container">
         <div className="row">
