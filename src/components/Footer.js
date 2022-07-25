@@ -25,7 +25,7 @@ export default function Footer() {
                   >
                       Anfahrt & Öffnungszeiten
                   </Link>
-                  <Link style={{textDecoration:"none",color:"#ffffff"}}
+                  <Link style={{textDecoration:"none",color:"#ffffff",padding:"12px"}}
                       to="/impressum"
                   >
                       Impressum & Datenschutz
