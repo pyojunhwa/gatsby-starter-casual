@@ -11,8 +11,6 @@ import standup from "../assets/images/standup.webp";
 import gebueren from "../assets/images/gebueren.webp";
 const IndexPage = () => (
   <Layout activeLink="about">
-
-
     <section className="page-section">
       <div className="container">
         <div className="product-item">
