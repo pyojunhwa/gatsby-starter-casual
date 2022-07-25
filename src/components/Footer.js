@@ -9,18 +9,18 @@ export default function Footer() {
           <div className="flex-row mx-auto">
                   <Link
                       to="/"
-                      style={{textDecoration:"none",color:"#ffffff",paddingRight:"10px"}}
+                      style={{textDecoration:"none",color:"#ffffff",padding:"12px"}}
                   >
                       Startseite
                   </Link>
                   <Link
                       to="/angebote"
-                      style={{textDecoration:"none",color:"#ffffff",paddingRight:"10px"}}
+                      style={{textDecoration:"none",color:"#ffffff",padding:"12px"}}
                   >
                       Angebote
                   </Link>
                   <Link
-                      style={{textDecoration:"none",color:"#ffffff",paddingRight:"10px"}}
+                      style={{textDecoration:"none",color:"#ffffff",padding:"12px"}}
                       to="/anfahrt"
                   >
                       Anfahrt & Öffnungszeiten
