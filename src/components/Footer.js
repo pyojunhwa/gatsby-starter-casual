@@ -20,7 +20,7 @@ export default function Footer() {
                       Angebote
                   </Link>
                   <Link
-                      style={{textDecoration:"none",color:"#ffffff"paddingRight:"10px"}}
+                      style={{textDecoration:"none",color:"#ffffff",paddingRight:"10px"}}
                       to="/products"
                   >
                       Anfahrt & Öffnungszeiten
