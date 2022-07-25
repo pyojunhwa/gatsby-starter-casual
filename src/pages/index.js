@@ -18,7 +18,7 @@ const IndexPage = () => (
           <div className="intro-text left-0 text-center bg-faded p-5 rounded">
             <h2 className="section-heading mb-4">
               <span className="section-heading-upper">Platz und Ruhe</span>
-              <span className="section-heading-lower">Wie bieten ihnen</span>
+              <span className="section-heading-lower">Wir bieten ihnen</span>
             </h2>
             <p className="mb-3">
               ... eine Freizeitanlage wenige Meter vom Ostorfer See und nur 3km vom Zentrum entfernt. Sie ist ideal geeignet für eine Auszeit. Buchen sie einen von 20 Stellplätzen für ihren Caravan oder nutzen sie den Outdoorplatz für bis zu 150 Personen für ihre nächste Familien- oder Firmenfeier. Es gibt einen großen Grillplatz mit überdachter Terrasse und Seeblick. Rufen sie bei interesse einfach mal an!
@@ -46,7 +46,7 @@ const IndexPage = () => (
                 Um das kühle Nass zu genießen unsere Badeanstalt. Weiterhin bieten wir auch Tret- Ruder- und Stand-Up-boote zu verleih. Außerdem können sie es sich auf einer der vielen gepflegten Liegeflächen gutgehen lassen oder das Volleyballfeld buchen. Bitte verstehen sie, dass Hunde auf den Liegeflächen nicht erlaubt sind.
               </p>
               <div className="intro-button mx-auto">
-                <a className="btn btn-secondary btn-xl"  href="https://gatsbystartercasualmaster.gatsbyjs.io/about">
+                <a className="btn btn-primary btn-xl"  href="https://gatsbystartercasualmaster.gatsbyjs.io/about">
                   Zu den Angeboten
                 </a>
               </div>
