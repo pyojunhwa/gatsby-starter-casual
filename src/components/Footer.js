@@ -10,7 +10,6 @@ export default function Footer() {
                   <Link className="nav-link"
                         to="/"
                         color="#ffffff"
-                        style="text-decoration:none"
                   >
                       Startseite
                   </Link>
@@ -18,7 +17,6 @@ export default function Footer() {
                       className="nav-link"
                       to="/about"
                       color="#ffffff"
-                      style="text-decoration:none"
                   >
                       Angebote
                   </Link>
@@ -26,7 +24,6 @@ export default function Footer() {
                       className="nav-link"
                       to="/products"
                       color="#ffffff"
-                      style="text-decoration:none"
                   >
                       Anfahrt und Öffnungszeiten
                   </Link>
@@ -34,7 +31,6 @@ export default function Footer() {
                       className="nav-link"
                       to="/store"
                       color="#ffffff"
-                      style="text-decoration:none"
                   >
                       Impressum & Datenschutz
                   </Link>
