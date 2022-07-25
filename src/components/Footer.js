@@ -14,19 +14,19 @@ export default function Footer() {
                       Startseite
                   </Link>
                   <Link
-                      to="/about"
+                      to="/abgebote"
                       style={{textDecoration:"none",color:"#ffffff",paddingRight:"10px"}}
                   >
                       Angebote
                   </Link>
                   <Link
                       style={{textDecoration:"none",color:"#ffffff",paddingRight:"10px"}}
-                      to="/products"
+                      to="/anfahrt"
                   >
                       Anfahrt & Öffnungszeiten
                   </Link>
                   <Link style={{textDecoration:"none",color:"#ffffff"}}
-                      to="/store"
+                      to="/impressum"
                   >
                       Impressum & Datenschutz
                   </Link>
