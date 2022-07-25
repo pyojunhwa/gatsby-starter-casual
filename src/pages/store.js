@@ -10,7 +10,7 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-xl-9 mx-auto">
-            <div className="cta-inner text-center rounded">
+            <div className="cta-inner rounded">
                 <h1>Impressum</h1>
 
                 <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
@@ -26,7 +26,7 @@ const IndexPage = () => (
                 <h2>Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle</h2>
                 <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
 
-                <p>Quelle: <a href="https://www.e-recht24.de/impressum-generator.html">https://www.e-recht24.de/impressum-generator.html</a></p>
+                <p>Quelle: <a style="text-decoration:none!important" href="https://www.e-recht24.de/impressum-generator.html">https://www.e-recht24.de/impressum-generator.html</a></p>
             </div>
           </div>
         </div>
