@@ -1802,23 +1802,26 @@ pre code {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
-
   .table-responsive-sm > .table-bordered {
     border: 0;
   }
-
   .navbar-brand {
     font-size: 0.9em;
   }
-
-
-   .section-heading-upper {
+  .section-heading {
+    text-transform: uppercase;
+  .section-heading-upper {
+    display: block;
     font-size: 0.9em;
-   }
-  .section-heading-lower {
-    font-size: 0.9em;
+    font-weight: 800;
   }
- }
+  .section-heading-lower {
+    display: block;
+    font-size: 0.9em;
+    font-weight: 100;
+  }
+}
+}
 
 @media (max-width: 767.98px) {
   .table-responsive-md {
