@@ -3,25 +3,25 @@ import {Link} from "gatsby";
 
 export default function Footer() {
   return (
-    <footer className="footer text-center py-5">
+    <footer className="footer py-5">
       <div className="container">
-        <p className="m-0" color="fff">Freizeitanlage - Kaspelwerder</p>
-          <ul className=" mx-auto">
-                  <Link className="nav-link"
+
+          <li className="mx-auto">
+              <p className="m-0" color="fff">Freizeitanlage - Kaspelwerder</p>
+              <Link className="nav-link"
                         to="/"
                         color="fff"
-                        style={{ textDecoration: 'none' }}
                   >
                       Startseite
                   </Link>
-                  <Link style={{ textDecoration: 'none' }}
+                  <Link
                       className="nav-link"
                       to="/about"
                       color="fff"
                   >
                       Angebote
                   </Link>
-                  <Link style={{ textDecoration: 'none' }}
+                  <Link
                       className="nav-link"
                       to="/products"
                       color="fff"
@@ -35,7 +35,7 @@ export default function Footer() {
                   >
                       Impressum & Datenschutz
                   </Link>
-          </ul>
+          </li>
       </div>
     </footer>
   );
