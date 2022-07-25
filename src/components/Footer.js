@@ -10,24 +10,25 @@ export default function Footer() {
                   <Link className="nav-link"
                         to="/"
                         color="fff"
+                        style={{ textDecoration: 'none' }}
                   >
                       Startseite
                   </Link>
-                  <Link
+                  <Link style={{ textDecoration: 'none' }}
                       className="nav-link"
                       to="/about"
                       color="fff"
                   >
                       Angebote
                   </Link>
-                  <Link
+                  <Link style={{ textDecoration: 'none' }}
                       className="nav-link"
                       to="/products"
                       color="fff"
                   >
                       Anfahrt und Öffnungszeiten
                   </Link>
-                  <Link
+                  <Link style={{ textDecoration: 'none' }}
                       className="nav-link"
                       to="/store"
                       color="fff"
