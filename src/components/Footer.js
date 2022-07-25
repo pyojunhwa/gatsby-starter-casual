@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="footer text-center py-5">
       <div className="container">
           <p className="m-0" style={{color:"#ffffff"}}>Freizeitanlage - Kaspelwerder</p>
-          <ul style={{ flexDirection:"row"}} className=" mx-auto">
+          <div className="flex-row mx-auto">
                   <Link
                       className="nav-link"
                       to="/"
@@ -34,7 +34,7 @@ export default function Footer() {
                   >
                       Impressum & Datenschutz
                   </Link>
-          </ul>
+          </div>
       </div>
     </footer>
   );
