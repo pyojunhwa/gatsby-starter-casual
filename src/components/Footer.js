@@ -5,11 +5,12 @@ export default function Footer() {
   return (
     <footer className="footer text-center py-5">
       <div className="container">
-        <p className="m-0" color="fff">Freizeitanlage - Kaspelwerder</p>
-          <ul className=" mx-auto">
+          <ul>
+              <p className="m-0" color="fff">Freizeitanlage - Kaspelwerder</p>
                   <Link className="nav-link"
                         to="/"
                         color="fff"
+                        style="text-decoration:none"
                   >
                       Startseite
                   </Link>
@@ -17,6 +18,7 @@ export default function Footer() {
                       className="nav-link"
                       to="/about"
                       color="fff"
+                      style="text-decoration:none"
                   >
                       Angebote
                   </Link>
@@ -24,6 +26,7 @@ export default function Footer() {
                       className="nav-link"
                       to="/products"
                       color="fff"
+                      style="text-decoration:none"
                   >
                       Anfahrt und Öffnungszeiten
                   </Link>
@@ -31,6 +34,7 @@ export default function Footer() {
                       className="nav-link"
                       to="/store"
                       color="fff"
+                      style="text-decoration:none"
                   >
                       Impressum & Datenschutz
                   </Link>
