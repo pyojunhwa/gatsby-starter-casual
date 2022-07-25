@@ -25,12 +25,13 @@ const IndexPage = () => (
               </h2>
             </div>
           </div>
+          <a id="gebueren">
           <img
               className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
               src={badeanstalt}
               alt=""
-              id="gebueren"
           />
+          </a>
           <div className="product-item-description d-flex ml-auto">
             <div className="bg-faded p-5 rounded">
               <p className="mb-0">
