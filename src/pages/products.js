@@ -52,7 +52,7 @@ const IndexPage = () => (
             <div className="col-xl-9 col-lg-10 mx-auto">
               <div className="bg-faded rounded p-5">
                 <h2 className="section-heading mb-5">
-                  <span className="section-heading-lower">Öffnungszeiten</span>
+                  <span className="section-heading-upper">Öffnungszeiten</span>
                 </h2>
                 <ul className="list-unstyled list-hours mb-5 text-left mx-auto">
                   <li className="list-unstyled-item list-hours-item d-flex">
