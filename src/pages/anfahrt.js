@@ -31,9 +31,11 @@ const IndexPage = () => (
           </a>
           <div className="product-item-description d-flex mr-auto">
             <div className="bg-faded p-5 rounded">
+              <a href="https://goo.gl/maps/2UiVKqYf2Af3AGHv6">
               <p className="mb-0">
                 Das Bild ist ein Link zu Google Maps
               </p>
+              </a>
             </div>
           </div>
         </div>
