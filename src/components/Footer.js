@@ -5,8 +5,8 @@ export default function Footer() {
   return (
     <footer className="footer text-center py-5">
       <div className="container">
+          <p className="m-0" style={{color:"#ffffff"}}>Freizeitanlage - Kaspelwerder</p>
           <ul style={{ flexDirection:"row"}} className=" mx-auto">
-              <p className="m-0" style={{color:"#ffffff"}}>Freizeitanlage - Kaspelwerder</p>
                   <Link
                       className="nav-link"
                       to="/"
