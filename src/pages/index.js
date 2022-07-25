@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import intro from '../assets/images/intro.webp';
-
+import See from "../assets/images/see.webp";
 
 
 const IndexPage = () => (
@@ -12,7 +12,7 @@ const IndexPage = () => (
         <div className="intro">
           <img
             className="intro-img img-fluid mb-3 mb-lg-0 rounded"
-            src={intro}
+            src={See}
             alt=""
           />
           <div className="intro-text left-0 text-center bg-faded p-5 rounded">
@@ -33,20 +33,19 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="page-section clearfix">
+    <section className="page-section">
       <div className="container">
-        <div className="intro">
+        <div className="product-item">
+          <a id="gebueren">
           <img
-              className="intro-img img-fluid mb-3 mb-lg-0 rounded"
+              className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
               src={intro}
               alt=""
           />
-          <div className="intro-text right-0 text-center bg-faded p-5 rounded">
-            <h2 className="section-heading mb-4">
-              <span className="section-heading-upper">Caravan</span>
-              <span className="section-heading-lower">20 Stellplätze</span>
-            </h2>
-            <p className="mb-3">
+          </a>
+          <div className="product-item-description d-flex ml-auto">
+            <div className="bg-faded p-5 rounded">
+              <p className="mb-0">
               Buchen sie einen von 20 Stellplätzen für ihren Caravan.
             </p>
             <div className="intro-button mx-auto">
@@ -56,6 +55,7 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
 
