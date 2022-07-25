@@ -21,7 +21,7 @@ const IndexPage = () => (
               <span className="section-heading-lower">Wir bieten ihnen</span>
             </h2>
             <p className="mb-3">
-              ... eine Freizeitanlage wenige Meter vom Ostorfer See und nur 3km vom Zentrum entfernt. Sie ist ideal geeignet für eine Auszeit. Buchen sie einen von 20 Stellplätzen für ihren Caravan oder nutzen sie den Outdoorplatz für bis zu 150 Personen für ihre nächste Familien- oder Firmenfeier. Es gibt einen großen Grillplatz mit überdachter Terrasse und Seeblick. Rufen sie bei interesse einfach mal an!
+              ... eine Freizeitanlage wenige Meter vom Ostorfer See und nur 3km vom Zentrum entfernt. Sie ist ideal geeignet für eine Auszeit. Nutzen sie den Outdoorplatz für bis zu 150 Personen für ihre nächste Familien- oder Firmenfeier. Es gibt einen großen Grillplatz mit überdachter Terrasse und Seeblick. Rufen sie bei interesse einfach mal an!
             </p>
             <div className="intro-button mx-auto">
               <a className="btn btn-primary btn-xl" href="tel:+491738305016">
@@ -32,6 +32,33 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
+
+    <section className="page-section clearfix">
+      <div className="container">
+        <div className="intro">
+          <img
+              className="intro-img img-fluid mb-3 mb-lg-0 rounded"
+              src={intro}
+              alt=""
+          />
+          <div className="intro-text right-0 text-center bg-faded p-5 rounded">
+            <h2 className="section-heading mb-4">
+              <span className="section-heading-upper">Caravan</span>
+              <span className="section-heading-lower">20 Stellplätze</span>
+            </h2>
+            <p className="mb-3">
+              Buchen sie einen von 20 Stellplätzen für ihren Caravan.
+            </p>
+            <div className="intro-button mx-auto">
+              <a className="btn btn-primary btn-xl" href="https://gatsbystartercasualmaster.gatsbyjs.io/angebote/#gebueren">
+                Hier geht es zu den Stellplatzpreisen!
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <section className="page-section cta">
       <div className="container">
