@@ -11,26 +11,22 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-xl-9 mx-auto">
             <div className="cta-inner text-center rounded">
-              <h2 className="section-heading mb-4">
-                  <span className="section-heading-upper">
-                    Impressum
-                  </span>
-              </h2>
-              <p className="address mb-5">
-                <em>
-                  <strong>Marion  Dahlmann</strong>
-                  <br />
-                  Am Erlenbruch 20,19061 Schwerin
-                </em>
-              </p>
-              <p className="mb-0">
-                <small>
-                  <em>Email: freizeitanlage-kaspelwerder@gmx.de
-                  </em>
-                </small>
-                <br />
-               Tel.: 01738305016
-              </p>
+                <h1>Impressum</h1>
+
+                <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
+                <p>Marion Dahlmann<br />
+                    Freizeitanlage Kaspelwerder<br />
+                    Am Erlenbruch, 20<br />
+                    19061 Schwerin</p>
+
+                <h2>Kontakt</h2>
+                <p>Telefon: 01738305016<br />
+                    E-Mail: freizeitanlage-kaspelwerder@gmx.de</p>
+
+                <h2>Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle</h2>
+                <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+
+                <p>Quelle: <a href="https://www.e-recht24.de/impressum-generator.html">https://www.e-recht24.de/impressum-generator.html</a></p>
             </div>
           </div>
         </div>
