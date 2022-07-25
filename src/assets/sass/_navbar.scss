@@ -7,13 +7,13 @@
   .navbar-nav {
     .nav-item {
       .nav-link {
-        color: fade-out($primary, 0.3);
+        color: fade-out($white, 0.3);
 
         font-weight: 800;
       }
       &.active {
         .nav-link {
-          color: $primary;
+          color: $secondary;
         }
       }
     }
@@ -24,12 +24,12 @@
         .nav-link {
           font-size: 0.9rem;
           &:hover {
-            color: fade-out($primary, 0.6);
+            color: fade-out($white, 0.6);
           }
         }
         &.active {
           .nav-link:hover {
-            color: $primary;
+            color: $secondary;
           }
         }
       }
