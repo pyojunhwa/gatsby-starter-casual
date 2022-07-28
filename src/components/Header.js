@@ -85,6 +85,15 @@ export default class Header extends Component {
                   Impressum & Datenschutz
                 </Link>
               </li>
+              <li
+                  className={`nav-item px-lg-4 ${
+                      activeLink === 'preise' ? 'active' : ''
+                  }`}
+              >
+                <Link className="nav-link text-uppercase text-expanded" to="/preise">
+                  Preise
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
