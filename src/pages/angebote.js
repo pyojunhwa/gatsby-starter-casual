@@ -60,7 +60,7 @@ const IndexPage = () => (
           <div className="product-item-description d-flex mr-auto">
             <div className="bg-faded p-5 rounded">
               <p className="mb-0">
-                Ab 2,50€ die Stunde können die verschiedenen Bootarten gemietet werden. Weiter unten finden sie alle Preise
+                Ab 2,50€ die Stunde können die verschiedenen Bootarten gemietet werden.
               </p>
             </div>
           </div>
