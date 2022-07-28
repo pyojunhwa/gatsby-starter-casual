@@ -82,12 +82,13 @@ const IndexPage = () => (
     </section>
     <section className="page-section bg-faded">
       <a id="gebueren">
+      </a>
       <img
           className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
           src={gebueren}
           alt=""
       />
-      </a>
+
     </section>
   </Layout>
 );
