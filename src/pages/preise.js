@@ -1,5 +1,7 @@
-import gebueren from "../assets/images/gebueren.webp";
+
 import React from "react";
+import Layout from '../components/Layout';
+import gebueren from "../assets/images/gebueren.webp";
 
 const IndexPage = () => (
     <Layout activeLink="preise">
