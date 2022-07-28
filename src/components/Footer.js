@@ -19,6 +19,11 @@ export default function Footer() {
                   >
                       Angebote
                   </Link>
+              <Link style={{textDecoration:"none",color:"#ffffff",padding:"12px"}}
+                    to="/preise"
+              >
+                  Impressum & Datenschutz
+              </Link>
                   <Link
                       style={{textDecoration:"none",color:"#ffffff",padding:"12px"}}
                       to="/anfahrt"

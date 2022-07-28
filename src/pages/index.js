@@ -45,11 +45,11 @@ const IndexPage = () => (
           <div className="product-item-description d-flex ml-auto">
             <div className="bg-faded p-5 rounded">
               <p className="mb-0">
-              Buchen sie einen von 20 Stellplätzen für ihren Caravan.
+              Buchen sie einen der 20 ruhigen Stellplätzen für ihren Wohnwagen oder ihr Wohnmobil auf unserer Anlage. Für zwei Erwachsene kostet es nur 20€ pro Nacht. Genaueres finden sie auf der Preisliste:
             </p>
             <div className="intro-button mx-auto">
               <Link className="btn btn-primary btn-xl" to="/preise/">
-                Hier geht es zu den Stellplatzpreisen!
+                Zu den Preisen
               </Link>
             </div>
           </div>

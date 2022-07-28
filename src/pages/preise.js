@@ -5,7 +5,7 @@ import gebueren from "../assets/images/gebueren.webp";
 
 const IndexPage = () => (
     <Layout activeLink="preise">
-        <section className="page-section clearfix bg-faded">
+        <section className="page-section bg-faded">
 
             <div className="container">
                 <img

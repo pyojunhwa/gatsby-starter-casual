@@ -6,7 +6,6 @@ import badeanstalt from "../assets/images/badeanstalt.webp";
 import tretboot from "../assets/images/tretboot.webp";
 import volleyballfeld from "../assets/images/volleyballfeld.webp";
 import standup from "../assets/images/standup.webp";
-import gebueren from "../assets/images/gebueren.webp";
 
 
 const IndexPage = () => (
@@ -77,16 +76,6 @@ const IndexPage = () => (
         src={volleyballfeld}
         alt=""
     />
-    </section>
-    <section className="page-section bg-faded">
-      <a id="gebueren">
-      </a>
-      <img
-          className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
-          src={gebueren}
-          alt=""
-      />
-
     </section>
   </Layout>
 );
