@@ -22,7 +22,7 @@ export default function Footer() {
               <Link style={{textDecoration:"none",color:"#ffffff",padding:"12px"}}
                     to="/preise"
               >
-                  Impressum & Datenschutz
+                  Preise
               </Link>
                   <Link
                       style={{textDecoration:"none",color:"#ffffff",padding:"12px"}}

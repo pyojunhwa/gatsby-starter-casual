@@ -6,6 +6,7 @@ import badeanstalt from "../assets/images/badeanstalt.webp";
 import tretboot from "../assets/images/tretboot.webp";
 import volleyballfeld from "../assets/images/volleyballfeld.webp";
 import standup from "../assets/images/standup.webp";
+import {Link} from "gatsby";
 
 
 const IndexPage = () => (
@@ -77,6 +78,19 @@ const IndexPage = () => (
         alt=""
     />
     </section>
+<section>
+    <div className="container">
+      <div className="row">
+        <div className="col-xl-9 mx-auto">
+          <div className="cta-inner text-center rounded">
+            <h2 className="section-heading mb-0">
+              <Link to="/preise">Was kostet der spaß?</Link>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
   </Layout>
 );
 
