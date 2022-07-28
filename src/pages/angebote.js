@@ -7,6 +7,7 @@ import tretboot from "../assets/images/tretboot.webp";
 import volleyballfeld from "../assets/images/volleyballfeld.webp";
 import standup from "../assets/images/standup.webp";
 import {Link} from "gatsby";
+import about from "../assets/images/about.webp";
 
 
 const IndexPage = () => (
@@ -71,21 +72,27 @@ const IndexPage = () => (
         />
       </div>
     </section>
-    <section className="page-section">
-    <img
-        className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
-        src={volleyballfeld}
-        alt=""
-    />
-    </section>
-<section>
-    <div className="container">
-      <div className="row">
-        <div className="col-xl-9 mx-auto">
-          <div className="cta-inner text-center rounded">
-            <h2 className="section-heading mb-0">
-              <Link to="/preise">Was kostet der spaß?</Link>
-            </h2>
+
+
+    <section className="page-section about-heading">
+      <div className="container">
+        <img
+            className="img-fluid rounded about-heading-img mb-3 mb-lg-0"
+            src={volleyballfeld}
+            alt=""
+        />
+        <div className="about-heading-content">
+          <div className="row">
+            <div className="col-xl-9 col-lg-10 mx-auto">
+              <div className="bg-faded rounded p-5">
+                <div className="text-center">
+                <div className="intro-button mx-auto">
+                  <Link className="btn btn-primary btn-xl"  to="/preise">
+                    Zu den Preisen
+                  </Link>
+                </div>
+                </div>
+              </div>
           </div>
         </div>
       </div>
