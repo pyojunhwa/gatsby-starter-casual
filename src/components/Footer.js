@@ -1,11 +1,12 @@
 import React from 'react';
 import {Link} from "gatsby";
+import wortmarke from "../assets/img/logo/Kaspelwerder-Logo_v01/PNG/KW-Wortmarke-farbig-negativ.png";
 
 export default function Footer() {
   return (
     <footer className="footer text-center py-5">
       <div className="container">
-          <p className="m-0" style={{color:"#ffffff"}}>Freizeitanlage - Kaspelwerder</p>
+        <img src={wortmarke} style={{height: 160, paddingBottom: 30}}/>
           <div className="flex-row mx-auto">
                   <Link
                       to="/"

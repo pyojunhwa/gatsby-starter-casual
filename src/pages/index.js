@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import intro from '../assets/images/intro.webp';
 import See from "../assets/images/see.webp";
 import {Link} from "gatsby";
+import wappen from "../assets/img/logo/Kaspelwerder-Logo_v01/PNG/KW-Logo-farbig-kontur.png";
 
 
 const IndexPage = () => (
@@ -11,6 +12,11 @@ const IndexPage = () => (
     <section className="page-section clearfix">
       <div className="container">
         <div className="intro">
+          <div className="intro-text-right d-flex mr-auto">
+            <div className="bg-transparent p-5 d-flex ml-auto rounded">
+              <img src={wappen} style={{height: 250}}/>
+            </div>
+          </div>
           <img
             className="intro-img img-fluid mb-3 mb-lg-0 rounded"
             src={See}
@@ -36,7 +42,8 @@ const IndexPage = () => (
 
     <section className="page-section">
       <div className="container">
-        <div className="product-item">
+        <div className="intro">
+
           <img
               className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
               src={intro}
@@ -48,7 +55,7 @@ const IndexPage = () => (
               <p className="mb-0">
               Buchen sie einen der 20 ruhigen Stellplätzen für ihren Wohnwagen oder ihr Wohnmobil auf unserer Anlage. Für zwei Erwachsene kostet es nur 20€ pro Nacht. Genaueres finden sie auf der Preisliste:
             </p>
-            <div className="intro-button mx-auto align-middle">
+            <div style={{paddingTop: 30}}  className="intro-button mx-auto align-middle">
               <Link className="btn btn-primary btn-xl" to="/preise/">
                 Zu den Preisen
               </Link>
@@ -73,7 +80,7 @@ const IndexPage = () => (
               <p className="mb-0">
                 Um das kühle Nass zu genießen unsere Badeanstalt. Weiterhin bieten wir auch Tret- Ruder- und Stand-Up-boote zu verleih. Außerdem können sie es sich auf einer der vielen gepflegten Liegeflächen gutgehen lassen oder das Volleyballfeld buchen. Bitte verstehen sie, dass Hunde auf den Liegeflächen nicht erlaubt sind.
               </p>
-              <div className="intro-button mx-auto">
+              <div style={{paddingTop: 30}}  className="intro-button mx-auto">
                 <Link className="btn btn-primary btn-xl"  to="/angebote">
                   Zu den Angeboten
                 </Link>
