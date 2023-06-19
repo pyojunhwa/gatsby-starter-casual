@@ -7,7 +7,7 @@ import tretboot from "../assets/images/tretboot.webp";
 import volleyballfeld from "../assets/images/volleyballfeld.webp";
 import standup from "../assets/images/standup.webp";
 import {Link} from "gatsby";
-import about from "../assets/images/about.webp";
+import wappen from "../assets/img/logo/Kaspelwerder-Logo_v01/PNG/KW-Logo-farbig.png";
 
 
 const IndexPage = () => (
@@ -15,22 +15,26 @@ const IndexPage = () => (
     <section className="page-section">
       <div className="container">
         <div className="product-item">
-          <div className="product-item-title d-flex">
-            <div className="bg-faded p-5 d-flex mr-auto rounded">
-              <h2 className="section-heading mb-0">
-                <span className="section-heading-upper">
-                  Die Badeanstalt
-                </span>
-              </h2>
+          <div className="intro">
+            <div className="intro-text-left d-flex mr-auto">
+              <div className="bg-transparent p-5 d-flex ml-auto rounded">
+                <img alt="" src={wappen} style={{height: 250}}/>
+              </div>
             </div>
           </div>
           <img
-              className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
+              className="intro-img img-fluid mb-3 mb-lg-0 rounded"
               src={badeanstalt}
               alt=""
           />
           <div className="product-item-description d-flex ml-auto">
             <div className="bg-faded p-5 rounded">
+              <h2 className="section-heading mb-0">
+                <span className="section-heading-upper">
+                  Die Badeanstalt
+                </span>
+              </h2>
+            <br/>
               <p className="mb-0">
                 Ideal für alle Altersklassen! Dank des vom Steg umschlossenen Kinderbeckens mit Rutsche haben sie die Kleinen immer im Blick. Für die Großen eignet er sich hervorragend zum Hereinspringen.
               </p>

@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 
 import product1 from '../assets/images/google_maps Kaspelwerder.webp';
 import about from "../assets/images/about.webp";
+import wappen from "../assets/img/logo/Kaspelwerder-Logo_v01/PNG/KW-Logo-farbig.png";
 
 const IndexPage = () => (
   <Layout activeLink="anfahrt">
@@ -22,9 +23,16 @@ const IndexPage = () => (
               </h2>
             </div>
           </div>
+          <div className="intro">
+            <div className="intro-text-anfahrt d-flex mr-auto">
+              <div className="bg-transparent p-5 d-flex ml-auto rounded">
+                <img src={wappen} style={{height: 250}} alt=""/>
+              </div>
+            </div>
+          </div>
           <a href="https://goo.gl/maps/2UiVKqYf2Af3AGHv6">
           <img
-            className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
+            className="intro-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
             src={product1}
             alt=""
           />

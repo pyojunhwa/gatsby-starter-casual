@@ -23,25 +23,25 @@
       width: 60%;
       margin-top: 0;
       position: absolute;
-      .intro-button {
-        width: 100%;
-        left: 0;
-        position: absolute;
-        bottom: -2rem;
-      }
     }
-  .intro-text-rightdown {
-    right: 0;
-    width: 60%;
+    .intro-text-left {
+    left: 0;
+    width: 20%;
     margin-top: 0;
     position: absolute;
-    .intro-button {
-      width: 100%;
-      left: 0;
-      position: absolute;
-      bottom: -2rem;
     }
-  }
+    .intro-text-anfahrt {
+      left: 100px;
+      width: 20%;
+      margin-top: 0;
+      position: absolute;
+    }
+    .intro-text-angebote {
+      left: -280px;
+      width: 20%;
+      margin-top: 0;
+      position: absolute;
+    }
 }
   @media (min-width: 1200px) {
     .intro-text {
