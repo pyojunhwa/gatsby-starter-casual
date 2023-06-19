@@ -14,7 +14,7 @@ const IndexPage = () => (
         <div className="intro">
           <div className="intro-text-right d-flex mr-auto">
             <div className="bg-transparent p-5 d-flex ml-auto rounded">
-              <img src={wappen} style={{height: 250}}/>
+              <img alt="" src={wappen} style={{height: 250}}/>
             </div>
           </div>
           <img

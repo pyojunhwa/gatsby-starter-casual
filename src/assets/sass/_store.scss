@@ -5,13 +5,9 @@
     padding-bottom: .25rem;
     margin-bottom: 1rem;
     font-style: italic;
-    &.today {
-      font-weight: bold;
-      color: $primary;
-    }
   }
   @media(min-width: 992px) {
-    width: 50%;
+    width: 90%;
     font-size: 1.1rem;
   }
 }

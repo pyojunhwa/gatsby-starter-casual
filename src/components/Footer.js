@@ -10,28 +10,32 @@ export default function Footer() {
           to="/"
           style={{textDecoration:"none",color:"#ffffff",padding:"12px"}}
         >
-        <img src={wortmarke} style={{height: 160, paddingBottom: 30}}/>
+        <img alt="" src={wortmarke} style={{height: 160, paddingBottom: 30}}/>
         </Link>
           <div className="flex-row mx-auto">
                   <Link
                       to="/angebote"
                       style={{textDecoration:"none",color:"#ffffff",padding:"12px"}}
+                      className="text-uppercase"
                   >
                       Angebote
                   </Link>
               <Link style={{textDecoration:"none",color:"#ffffff",padding:"12px"}}
                     to="/preise"
+                    className="text-uppercase"
               >
                   Preise
               </Link>
                   <Link
                       style={{textDecoration:"none",color:"#ffffff",padding:"12px"}}
                       to="/anfahrt"
+                      className="text-uppercase"
                   >
                       Anfahrt & Öffnungszeiten
                   </Link>
                   <Link style={{textDecoration:"none",color:"#ffffff",padding:"12px"}}
                       to="/impressum"
+                        className="text-uppercase"
                   >
                       Impressum & Datenschutz
                   </Link>
