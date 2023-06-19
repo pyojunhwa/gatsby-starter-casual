@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import config from '../../config';
 import { Link } from 'gatsby';
+import logo from "../assets/img/logo/Kaspelwerder-Logo_v01/PNG/KW_adler-weiÃ.png";
 export default class Header extends Component {
   constructor(props) {
     super(props);
@@ -39,6 +40,7 @@ export default class Header extends Component {
             className={`collapse navbar-collapse ${openMenu ? 'show' : ''}`}
             id="navbarResponsive"
           >
+
             <ul className="navbar-nav text-center mx-auto">
               <li
                 className={`nav-item px-lg-4 ${
@@ -46,7 +48,7 @@ export default class Header extends Component {
                 }`}
               >
                 <Link className="nav-link text-uppercase text-expanded" to="/">
-                  Startseite
+                  <img src={logo} alt="Logo" style={{height: 25}}/>
                 </Link>
               </li>
               <li

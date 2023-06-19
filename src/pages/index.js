@@ -16,7 +16,7 @@ const IndexPage = () => (
             src={See}
             alt=""
           />
-          <div className="intro-text left-0 text-center bg-faded p-5 rounded">
+          <div className="intro-text text-center bg-faded p-5 rounded">
             <h2 className="section-heading mb-4">
               <span className="section-heading-upper">Platz und Ruhe</span>
               <span className="section-heading-lower">Wir bieten ihnen</span>
