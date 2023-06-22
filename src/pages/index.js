@@ -25,14 +25,14 @@ const IndexPage = () => (
           <div className="intro-text text-center bg-faded p-5 rounded">
             <h2 className="section-heading mb-4">
               <span className="section-heading-upper">Platz und Ruhe</span>
-              <span className="section-heading-lower">Wir bieten ihnen</span>
+              <span className="section-heading-lower">Wir bieten Ihnen</span>
             </h2>
             <p className="mb-3">
-              ... eine Freizeitanlage wenige Meter vom Ostorfer See und nur 3km vom Zentrum entfernt. Sie ist ideal geeignet für eine Auszeit. Nutzen sie den Outdoorplatz für bis zu 150 Personen für ihre nächste Familien- oder Firmenfeier. Es gibt einen großen Grillplatz mit überdachter Terrasse und Seeblick. Rufen sie bei interesse einfach mal an!
+              ... eine Freizeitanlage nur wenige Meter vom Ostorfer See und nur 3 km vom Zentrum entfernt. Sie ist ideal für eine erholsame Auszeit. Nutzen Sie unseren Outdoorplatz für bis zu 150 Personen für Ihre nächste Familien- oder Firmenfeier. Wir bieten Ihnen einen großartigen Grillplatz mit überdachter Terrasse und Seeblick. Rufen Sie uns bei Interesse einfach an!
             </p>
             <div className="intro-button mx-auto">
               <a className="btn btn-primary btn-xl" href="tel:+491738305016">
-                Tel.: 01738305016
+                Telefon: 0173 8305016
               </a>
             </div>
           </div>
@@ -53,7 +53,7 @@ const IndexPage = () => (
           <div className="product-item-description d-flex ml-auto">
             <div className="bg-faded p-5 rounded">
               <p className="mb-0">
-              Buchen sie einen der 20 ruhigen Stellplätzen für ihren Wohnwagen oder ihr Wohnmobil auf unserer Anlage. Für zwei Erwachsene kostet es nur 20€ pro Nacht. Genaueres finden sie auf der Preisliste:
+                Buchen Sie einen unserer 20 ruhigen Stellplätze für Ihren Wohnwagen oder Ihr Wohnmobil auf unserer erstklassigen Anlage. Für nur 20€ pro Nacht können zwei Erwachsene die Unterkunft genießen. Weitere Details finden Sie auf unserer umfassenden Preisliste.
             </p>
             <div style={{paddingTop: 30}}  className="intro-button mx-auto align-middle">
               <Link className="btn btn-primary btn-xl" to="/preise/">
@@ -74,15 +74,15 @@ const IndexPage = () => (
           <div className="col-xl-9 mx-auto">
             <div className="cta-inner text-center rounded">
               <h2 className="section-heading mb-4">
-                <span className="section-heading-upper">Baden, Liegen und</span>
-                <span className="section-heading-lower">Tretboot fahren </span>
+                <span className="section-heading-upper">Badespaß, Bootsfahrten und</span>
+                <span className="section-heading-lower">Entspannung pur</span>
               </h2>
               <p className="mb-0">
-                Um das kühle Nass zu genießen unsere Badeanstalt. Weiterhin bieten wir auch Tret- Ruder- und Stand-Up-boote zu verleih. Außerdem können sie es sich auf einer der vielen gepflegten Liegeflächen gutgehen lassen oder das Volleyballfeld buchen. Bitte verstehen sie, dass Hunde auf den Liegeflächen nicht erlaubt sind.
+                Tauchen Sie ein in das erfrischende Wasser in unserem Badebereich und genießen Sie die Vielfalt an Aktivitäten. Wir bieten Ihnen auch die Möglichkeit, Tret-, Ruder- und Stand-Up-Boote auszuleihen. Entspannen Sie auf unseren gepflegten Liegeflächen oder reservieren Sie das Volleyballfeld für eine Partie.
               </p>
-              <div style={{paddingTop: 30}}  className="intro-button mx-auto">
-                <Link className="btn btn-primary btn-xl"  to="/angebote">
-                  Zu den Angeboten
+              <div style={{paddingTop: 30}} className="intro-button mx-auto">
+                <Link className="btn btn-primary btn-xl" to="/angebote">
+                  Entdecken Sie unsere Angebote
                 </Link>
               </div>
             </div>

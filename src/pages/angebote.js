@@ -27,81 +27,79 @@ const IndexPage = () => (
               src={badeanstalt}
               alt=""
           />
+
           <div className="product-item-description d-flex ml-auto">
             <div className="bg-faded p-5 rounded">
               <h2 className="section-heading mb-0">
-                <span className="section-heading-upper">
-                  Die Badeanstalt
-                </span>
+      <span className="section-heading-upper">
+        Die Badeanstalt
+      </span>
               </h2>
-            <br/>
+              <br/>
               <p className="mb-0">
-                Ideal für alle Altersklassen! Dank des vom Steg umschlossenen Kinderbeckens mit Rutsche haben sie die Kleinen immer im Blick. Für die Großen eignet er sich hervorragend zum Hereinspringen.
+                Perfekt für alle Altersgruppen! Das Kinderbecken mit Rutsche, das durch einen Steg umgeben ist, ermöglicht es Ihnen, die Kleinen immer im Blick zu behalten. Für die Erwachsenen bietet es eine großartige Möglichkeit, ins Wasser zu springen.
               </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-
     <section className="page-section">
       <div className="container">
         <div className="product-item">
           <div className="product-item-title d-flex">
             <div className="bg-faded p-5 d-flex ml-auto rounded">
               <h2 className="section-heading mb-0">
-                <span className="section-heading-upper">
-                  Bootsverleih
-                </span>
+          <span className="section-heading-upper">
+            Bootsverleih
+          </span>
               </h2>
             </div>
           </div>
           <img
-              className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
-              src={tretboot}
-              alt=""
+            className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
+            src={tretboot}
+            alt=""
           />
           <div className="product-item-description d-flex mr-auto">
             <div className="bg-faded p-5 rounded">
               <p className="mb-0">
-                Ab 2,50€ die Stunde können die verschiedenen Bootarten gemietet werden.
+                Mieten Sie verschiedene Bootstypen ab 2,50€ pro Stunde.
               </p>
             </div>
           </div>
         </div>
         <img
-            className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
-            src={standup}
-            alt=""
+          className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
+          src={standup}
+          alt=""
         />
       </div>
     </section>
-
-
     <section className="page-section about-heading">
       <div className="container">
         <img
-            className="img-fluid rounded about-heading-img mb-3 mb-lg-0"
-            src={volleyballfeld}
-            alt=""
+          className="img-fluid rounded about-heading-img mb-3 mb-lg-0"
+          src={volleyballfeld}
+          alt=""
         />
         <div className="about-heading-content">
           <div className="row">
             <div className="col-xl-9 col-lg-10 mx-auto">
               <div className="bg-transparent rounded p-5">
                 <div className="text-center">
-                <div className="intro-button mx-auto">
-                  <Link className="btn btn-primary btn-xl"  to="/preise">
-                    Zu den Preisen
-                  </Link>
-                </div>
+                  <div className="intro-button mx-auto">
+                    <Link className="btn btn-primary btn-xl" to="/preise">
+                      Erfahren Sie mehr über unsere Preise
+                    </Link>
+                  </div>
                 </div>
               </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-</section>
+    </section>
   </Layout>
 );
 
