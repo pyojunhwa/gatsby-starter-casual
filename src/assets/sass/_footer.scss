@@ -1,3 +1,12 @@
 .footer {
-  background-color: fade-out($primary, 0.1);
+  background-color: $primary;
+  font-weight: bolder;
+
+  .text-uppercase {
+    @include heading-font;
+  }
+
+  @media (max-width: 767px) {
+    font-size: larger;
+  }
 }
