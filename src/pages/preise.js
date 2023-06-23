@@ -1,21 +1,12 @@
 import React from "react";
 import Layout from "../components/Layout";
-import wappen from "../assets/img/logo/Kaspelwerder-Logo_v01/PNG/KW-Logo-farbig.png";
-
 const IndexPage = () => (
   <Layout activeLink="preise">
     <br/>
     <br/>
     <br/>
     <div className="container">
-      <div className="intro">
-        <div className="intro-text-preise d-flex mr-auto">
-          <div className="bg-transparent p-5 d-flex ml-auto rounded">
-            <img alt="" src={wappen} style={{ height: 250 }} />
-          </div>
-        </div>
-      </div>
-      <div className="row">
+      <div className="row intro">
         <div className="col-xl-9 col-lg-10 mx-auto">
           <div className="bg-faded rounded p-5">
             <h2 className="section-heading mb-5">

@@ -1,7 +1,6 @@
 .footer {
   background-color: $primary;
   font-weight: bolder;
-
   .text-uppercase {
     @include heading-font;
   }

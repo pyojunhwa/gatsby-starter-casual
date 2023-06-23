@@ -5,42 +5,39 @@ import wortmarke from "../assets/img/logo/Kaspelwerder-Logo_v01/PNG/KW-Wortmarke
 export default function Footer() {
   return (
     <footer className="footer text-center py-5">
-      <div className="container">
         <Link
           to="/"
-          style={{textDecoration:"none",color:"#ffffff",padding:"12px"}}
         >
         <img alt="" src={wortmarke} style={{height: 160, paddingBottom: 30}}/>
         </Link>
-          <div className="flex-row mx-auto">
+          <div className="footer-div">
                   <Link
                       to="/angebote"
-                      style={{textDecoration:"none",color:"#ffffff",padding:"12px"}}
-                      className="text-uppercase"
+                      style={{textDecoration:"none",color:"#ffffff",padding:"18px"}}
+                      className="text-uppercase "
                   >
                       Angebote
                   </Link>
-              <Link style={{textDecoration:"none",color:"#ffffff",padding:"12px"}}
+              <Link style={{textDecoration:"none",color:"#ffffff",padding:"18px"}}
                     to="/preise"
-                    className="text-uppercase"
+                    className="text-uppercase "
               >
                   Preise
               </Link>
                   <Link
-                      style={{textDecoration:"none",color:"#ffffff",padding:"12px"}}
+                      style={{textDecoration:"none",color:"#ffffff",padding:"18px"}}
                       to="/anfahrt"
-                      className="text-uppercase"
+                      className="text-uppercase "
                   >
                       Anfahrt & Öffnungszeiten
                   </Link>
-                  <Link style={{textDecoration:"none",color:"#ffffff",padding:"12px"}}
+                  <Link style={{textDecoration:"none",color:"#ffffff",padding:"18px"}}
                       to="/impressum"
-                        className="text-uppercase"
+                        className="text-uppercase "
                   >
                       Impressum & Datenschutz
                   </Link>
           </div>
-      </div>
     </footer>
   );
 }

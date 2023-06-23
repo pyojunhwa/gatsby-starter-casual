@@ -1,6 +1,38 @@
 .intro {
   position: relative;
+  @media (max-width: 992px) {
+    .intro-text-anfahrt{
+        left: -20px;
+        margin-top: -30px;
+        position: absolute;
+    }
+    .intro-text-right{
+      left: -20px;
+      margin-top: -20px;
+      position: absolute;
+    }
+    .intro-text-left {
+      left: 0;
+      width: 20%;
+      margin-top: 0;
+      position: absolute;
+    }
+    .intro-wappen-klein{
+      height: 120px;
+    }
+    .intro-wappen{
+      height: 150px;
+    }
+  }
+
+
   @media (min-width: 992px) {
+    .intro-wappen-klein{
+      height: 174px;
+    }
+    .intro-wappen{
+      height: 250px;
+    }
     .intro-img {
       width: 75%;
       float: right;
@@ -32,13 +64,6 @@
     }
     .intro-text-anfahrt {
       left: 100px;
-      width: 20%;
-      margin-top: 0;
-      position: absolute;
-    }
-    .intro-text-preise {
-      left: -200px;
-      top: -50px;
       width: 20%;
       margin-top: 0;
       position: absolute;
